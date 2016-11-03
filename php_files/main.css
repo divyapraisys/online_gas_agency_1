@@ -1,0 +1,348 @@
+.photo-header {
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	clear: both;
+}
+
+.home.photo-header .wrapper .text {
+	right: 0;
+	width: 55.31915%;
+	background-color: #1faeff;
+	text-transform: uppercase;
+	font-size: 3.42857em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	color: #fff;
+/*	padding: 20px;
+*/	letter-spacing: 1px;
+	width: 100%;
+	text-align: right;
+	padding-right: 20px;
+}
+.my-sticky-element.stuck .wrapper {
+	max-width: 100%;
+}
+.nav ul li {
+	font-family: 'sansus_webissimoregular', Arial, sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: inline;
+	padding: 15px;
+	text-shadow: 0px 1px 3px #4e4e4e;
+}
+.nav a {
+	color: #fff;
+	text-decoration: none;
+}
+.nav a:hover {
+	text-decoration: underline;
+}
+
+.my-sticky-element.stuck {
+	position: fixed;
+	top: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+	background-color: #bddd76;
+	width: 100%;
+	text-align: right;
+	z-index: 1000;
+/*	padding: 20px;
+*/	color: #000;
+}
+
+.nav.stuck a {
+	color: #000;
+}
+.nav.my-sticky-element ul {
+	margin:4px;
+}
+.nav.stuck ul li {
+	text-shadow: none;
+}
+
+.logo-holder {
+	position: absolute;
+	display: inline-block;
+	left: 50px;
+	top: 7px;
+}
+
+.hero {
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+.my-sticky-element.stuck {
+	position: fixed;
+	top: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+	background-color: #bddd76;
+	width: 100%;
+	text-align: right;
+	z-index: 1000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.my-sticky-element.stuck ul {
+	margin: 4px;
+}
+
+.nav.stuck a {
+	color: #000;
+}
+
+
+
+
+
+/* ----- GLOBAL ----- */
+
+body {
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	line-height: 28px;	
+	font-size: 100%; 
+}
+ul {
+	padding-left: 0px;
+}
+a {
+	color: inherit;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* ----- TYPE ----- */
+
+h2, .beta {
+	font-family: sans-serif;
+	font-size: 42px;  
+	line-height: 56px;
+	margin-bottom: 49px; 
+	margin-top: 0;
+}
+h3, .gamma {
+	font-family: sans-serif;
+	font-size: 35px; 
+	line-height: 56px;
+	margin-bottom: 42px; 
+	margin-top: 0;
+}
+h5, .epsilon {
+	font-family: 'sansus_webissimoregular', sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 42px; 
+	margin-bottom: 42px; 
+	margin-top: 0;
+}
+.contact-content p.epsilon {
+	font-family: 'aller_lightregular';
+}
+/* ----- BRAND ----- */
+
+.brand-grey {
+	background-color: #2a313d;
+	color: #fff;
+}
+.sub-text {
+	font-family:  Arial, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #bec0c2;
+	margin-bottom: 35px;
+}
+
+
+
+
+
+/* ----- FRAMEWORK ----- */
+
+.row {
+	height: 100%;
+	overflow: hidden;
+}
+.left-col {
+	width: 38%;
+	float: left;
+	padding: 7% 5% 7% 7%;
+}
+.left-col-img {
+	width: 50%;
+	float: left;
+	padding: 0;
+}
+.right-col {
+	width: 40%;
+	float: left;
+	padding: 7% 4% 7% 6%;
+}
+.right-col-img {
+	width: 50%;
+	float: left;
+	padding: 0;
+}
+.left-col-img img, .right-col-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.full-col {
+	width: 76%;
+	padding: 8% 12%;
+}
+.full-col-alt {
+	width: 86%;
+	padding: 8% 7%;
+}
+
+/* ----- BUTTONS ----- */
+
+.btn {
+	padding: 14px 21px;
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+}
+.btn-secondary {
+	background-color: #7ca6fb;
+}
+.btn-secondary:hover {
+	background-color: #5d8ceb;
+}
+.btn-primary {
+	background-color: #bddd76;
+	color: #2d3541;
+}
+.btn-primary:hover {
+	background-color: #1d222b;
+	color: #fff;
+}
+
+
+/* ----- HERO ----- */
+.home.photo-header, .work.photo-header, .contact.photo-header {
+	background-color: #2d3541;
+}
+.title {
+    font-family: sans-serif;
+    font-size: 105px;
+	line-height: 94px;
+	text-transform: uppercase;
+	margin-bottom: 28px;
+	margin-top: 0px;
+}
+.sub-title {
+	font-family: sans-serif;
+	font-size: 70px;
+	line-height: 63px;
+	margin-top: 0px;
+}
+.extra {
+	font-family: 'jenna_sueregular';
+	font-size: 45px;
+	margin-bottom: 42px; 
+}
+
+/* hero */
+.title, .sub-title {
+	text-shadow: 2px 2px #202733;
+}
+.margin-fix {
+		margin-bottom: 14px;
+	}
+.contact-content {
+	background-color: #eeedeb;
+	color: #333333;
+}
+.contact-content .btn {
+	letter-spacing: 0px!important;
+}
+.contact-content .right-col {
+		padding-top: 0;
+		padding-bottom: 15%;
+	}
+.contact-content .right-col, .contact-content .left-col {
+		padding-top: 7%;
+		padding-bottom: 4%;
+	}
+.stripe {
+	height: 6px;
+}
+.home .left-col {
+	width: 88%;
+}
+.home .right-col, .contact .right-col, .work .right-col {
+	width: 50%;
+	padding: 0;
+}
+.home .right-col img, .contact .right-col img, .work .right-col img {
+	display: block;
+	float: right;
+}
+
+.home .full-col, .work .full-col {
+	text-align: center;
+}
+.photo-header {
+	 -webkit-background-size: cover;
+		-moz-background-size: cover;
+		  -o-background-size: cover;
+		     background-size: cover;
+		     max-height: 729px;
+}
+
+/* ----- INTRO ----- */
+
+.intro {
+	text-align: center;
+	color: #333333;
+}
+.intro p {
+	line-height: 35px;
+}
+.intro h5 {
+	font-family: Arial, sans-serif;
+	margin-bottom: 0rem; 
+}
+
+.main-logo {
+	width: 75px;
+	height: 75px;
+	background-position: -134px -118px;
+}
+a.link-underline {
+	text-decoration: underline;
+}
+a.link-underline:hover {
+	text-decoration: none;
+}
+
+
+
